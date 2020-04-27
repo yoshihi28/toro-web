@@ -1,3 +1,10 @@
 .row {
   display: inline-block;
 }
+.pixelated {
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */
+  image-rendering: -webkit-optimize-contrast; /* Safari (WebKit) */
+  image-rendering: -moz-crisp-edges;          /* Firefox (Gecko) */
+  image-rendering: -o-crisp-edges;            /* Opera 12.x */
+  image-rendering: pixelated;                 /* Chrome 41+, Opera 29+ (CSS4) */
+}
