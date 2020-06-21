@@ -31,7 +31,7 @@ function changeImage() {
 		count = 0;
 	}
 	document.pixelart.src = "img/" + img[count];
-	setTimeout("changeImage()", 100);
+	setTimeout("changeImage()", 250);
 }
 
 changeImage();
