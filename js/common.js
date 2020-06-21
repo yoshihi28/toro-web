@@ -6,7 +6,7 @@ function changeImage() {
 	if (count == img.length) {
 		count = 0;
 	}
-	document.pixelart.src = img[count];
+	document.pixelart.src = "img/" + img[count];
 	setTimeout("changeImage()", 1000);
 }
 
